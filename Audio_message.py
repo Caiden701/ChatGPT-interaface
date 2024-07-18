@@ -7,11 +7,11 @@ from elevenlabs.client import ElevenLabs
 
 # Initialize OpenAI client
 openai = OpenAI(
-    api_key='sk-proj-rCxmT5NRRe5jq5q9mNgET3BlbkFJhR4EYHzN7UnrtusmG7Wm'  # Replace with your actual OpenAI API key
+    api_key='Your API key'  # Replace with your actual OpenAI API key
 )
 
 client = ElevenLabs(
-    api_key="sk_389baf98f1c3f189088bff6f1ee5860c8a70b6f2f5edaf0d"  # Replace with your actual ElevenLabs API key
+    api_key="Your API key"  # Replace with your actual ElevenLabs API key
 )
 
 def get_chatgpt_response(prompt):
